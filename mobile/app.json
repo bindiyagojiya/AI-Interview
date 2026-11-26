@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "InterviewIQ AI",
+    "slug": "interviewiq-ai",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#1E1B4B"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.interviewiq.ai"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#1E1B4B"
+      },
+      "package": "com.interviewiq.ai",
+      "permissions": [
+        "android.permission.RECORD_AUDIO",
+        "android.permission.INTERNET"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-asset"
+    ]
+  }
+}
